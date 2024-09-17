@@ -37,6 +37,22 @@ embed = Embed(title="Hello, Discord!", description="This is a test message.")
 # Send the embed via webhook
 webhook.send(embed=embed)
 ```
+## Sending Multiple Embeds
+```python
+from utils.webhook import Webhook
+from utils.embed import Embed
+
+# Create a webhook instance
+webhook_url = "YOUR_DISCORD_WEBHOOK_URL"
+webhook = Webhook(url=webhook_url)
+
+# Create a basic embeds
+embed1 = Embed(title="Hello, Discord!", description="This is a test message.")
+embed2 = Embed(title="Hello, Wumpus!", description="This is a test message.")
+
+# Send the embed via webhook
+webhook.send(embed=[embed1, embed2])
+```
 
 ## Available Modules
 
