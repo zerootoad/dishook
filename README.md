@@ -1,4 +1,4 @@
-# Dishook
+# Dishook (W.I.P)
 
 **Dishook** is a simple and easy-to-use Python library for working with Discord webhooks. It provides convenient utilities for sending webhooks, creating rich embeds, handling allowed mentions, and more. This library is perfect for developers who want to automate sending messages, embeds, and polls to Discord channels with minimal setup.
 
