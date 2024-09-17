@@ -38,18 +38,6 @@ embed = Embed(title="Hello, Discord!", description="This is a test message.")
 webhook.send(embed=embed)
 ```
 
-### Sending a Poll
-
-```python
-from utils.poll import Poll
-
-# Create a poll
-poll = Poll(question="Which programming language do you prefer?", options=["Python", "JavaScript", "Go"])
-
-# Send the poll
-webhook.send(embed=poll.create_embed())
-```
-
 ## Available Modules
 
 - `webhook.py`: Handles sending messages, embeds, and components via webhooks.
